@@ -1,0 +1,24 @@
+{
+  "name": "react-native-gotoactivity-android",
+  "version": "1.0.1",
+  "description": "a react-native goto activity",
+  "main": "GotoActivity.js",
+  "scripts": {
+    "test": "react-native start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzyyppqq/react-native-gotoactivity-android.git"
+  },
+  "keywords": [
+    "android",
+    "goto activity",
+    "react native"
+  ],
+  "author": "zzyyppqq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzyyppqq/react-native-gotoactivity-android/issues"
+  },
+  "homepage": "https://github.com/zzyyppqq/react-native-gotoactivity-android#readme"
+}

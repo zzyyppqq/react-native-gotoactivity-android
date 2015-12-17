@@ -22,17 +22,13 @@ var deviceWidth = Dimensions.get('window').width;
 var deviceHeight = Dimensions.get('window').height;
 
 var ReactNativeSegmentedExample = React.createClass({
-  onSelectPosition:function(event){
-    console.log(event);
-    ToastAndroid.show('segment '+event.selected, ToastAndroid.SHORT)
-  },
+   _onPressButton:function(){
+       // GoToActivity.gotoActivity();
+      GoToActivity.gotoActivityFunc(function(backData){
+          ToastAndroid.show('backData=== '+backData, ToastAndroid.SHORT)
+      }); 
+   },
   render: function() {
-    _onPressButton:function(){
-        // GoToActivity.gotoActivity();
-           GoToActivity.gotoActivityFunc(function(backData){
-               ToastAndroid.show('backData=== '+backData, ToastAndroid.SHORT)
-           }); 
-    },
     return (
       renderButton: function() {
         return (
